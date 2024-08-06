@@ -5,7 +5,7 @@ if (!isset($_SESSION['loggedin'])) {
     exit;
 }
 include('../includes/header.php');
-require('../config.php');
+require('../uploads/config.php');
 
 $id = $_GET['id'];
 $sql = "SELECT * FROM content WHERE id='$id'";
