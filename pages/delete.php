@@ -4,7 +4,7 @@ if (!isset($_SESSION['loggedin'])) {
     header('Location: login.php');
     exit;
 }
-require('../config.php');
+require('../uploads/config.php');
 
 $id = $_GET['id'];
 $sql = "DELETE FROM content WHERE id='$id'";
