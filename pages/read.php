@@ -2,7 +2,7 @@
 <div class="container mt-5">
     <h2>Content List</h2>
     <?php
-    require('../config.php');
+    require('../uploads/config.php');
     $sql = "SELECT * FROM content";
     $result = $conn->query($sql);
 
