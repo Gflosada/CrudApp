@@ -16,7 +16,7 @@
 <?php
 session_start();
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    require('../config.php');
+    require('../uploads/config.php');
     $username = $_POST['username'];
     $password = $_POST['password'];
 
