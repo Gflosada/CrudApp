@@ -28,7 +28,7 @@ include('../includes/header.php');
 
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    require('../config.php');
+    require('../uploads/config.php');
     $title = $_POST['title'];
     $body = $_POST['body'];
     $user_id = $_SESSION['userid'];
